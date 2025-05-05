@@ -1,56 +1,67 @@
-# Recap Plus Lokasi Report (Plugin Edition)
+# 📊 Recap Plus Lokasi Report (Plugin Edition)
 
-![image](https://github.com/user-attachments/assets/7e6894e3-2f26-4b87-8f92-561efa4f2a18)
+![Plugin Screenshot](https://github.com/user-attachments/assets/7e6894e3-2f26-4b87-8f92-561efa4f2a18)
 
+## 🔍 Overview
 
-## Overview
+Plugin ini memperluas modul reporting SLiMS untuk menyediakan:
 
-This SLiMS plugin extends the built-in reporting module to provide:
+- 🔄 **Dynamic recap columns**  
+  Kolom rekap otomatis untuk setiap status di `mst_item_status` (misalnya: Rusak, Hilang).
 
-- **Dynamic recap columns** for every entry in `mst_item_status` (e.g. Rusak, Hilang, Booked)
-- An **“On Loan”** column that automatically counts items currently lent out and not yet returned.  
-- A **Location filter** to restrict the report to one or all library locations.
+- 📚 **On-Loan tracking**  
+  Kolom **“On Loan”** yang menghitung item yang sedang dipinjam dan belum kembali.
 
-## Features
+- 📍 **Location filter**  
+  Filter lokasi untuk menampilkan laporan satu cabang atau _All Locations_.
 
-- **Automatic status discovery**: Reads all item statuses from `mst_item_status` and builds headers and totals dynamically.
-- **On-Loan tracking**: Counts active loans (not returned) per group.
-- **Flexible grouping**: Recap by Classification, GMD, Collection Type, or Language.
-- **Location-based filtering**: Select a specific location or view all.
-- **Export & Print**: Print current view or export to XLS for offline analysis.
+## ✨ Fitur Utama
 
-## Installation
+- ⚙️ **Automatic status discovery**  
+  Membaca semua status di `mst_item_status` dan membuat header + total secara dinamis.
 
-1. **Copy plugin files**  
-   - Extract or copy the entire plugin folder (e.g. `rekap-plus-lokasi/`) into your SLiMS installation’s `plugins/` directory:  
+- 📈 **On-Loan tracking**  
+  Menghitung jumlah pinjaman aktif (belum dikembalikan) per grup.
 
-2. **Enable the plugin**  
-   - Log in to your SLiMS admin panel.  
-   - Navigate to **System → Plugins**.  
-   - Locate **Rekap Plus Lokasi** in the list and click **Enable** 
+- 🗂️ **Flexible grouping**  
+  Rekap berdasarkan:
+  - Clas­si­fi­ca­tion  
+  - GMD  
+  - Collection Type  
+  - Language
 
-3. **Use the report**  
-   - Once enabled, the “Rekap Plus Lokasi” menu will appear under **Reporting**.  
-   - Follow the **Usage** instructions to filter by location, group by status, print, or export.
+- 📍 **Location-based filtering**  
+  Pilih salah satu cabang atau tampilkan semua lokasi.
 
+- 🖨️ **Export & Print**  
+  - 🖨️ Cetak tampilan saat ini  
+  - 📥 Export ke XLS untuk analisis offline
 
+## 🛠️ Installation
 
-With these steps, your plugin will be installed and ready to use in any SLiMS 9.x (“Bulian”) installation.
+1. 📂 **Copy plugin files**  
+   Salin seluruh folder plugin (`rekap-plus-lokasi/`) ke `plugins/` SLiMS Anda.
 
+2. ✅ **Enable the plugin**  
+   - Login ke admin panel  
+   - **System → Plugins**  
+   - Aktifkan **Rekap Plus Lokasi**
 
-## Usage
+3. 🔍 **Use the report**  
+   - Menu “Rekap Plus Lokasi” muncul di bawah **Reporting**
 
-1. Navigate to **Reporting → Rekap Plus Lokasi** in your SLiMS admin panel.  
-2. Use the **Recap By** dropdown to choose grouping (e.g. Classification, GMD, Collection Type, Language).  
-3. Use the **Location** dropdown to select either _All Locations_ or a specific branch.  
-4. Click **Apply Filter** to reload the report iframe with your settings.  
-5. To print, click **Print Current Page**; to download, click **Export to spreadsheet format**.
+## 🚀 Usage
 
-## Disclaimer
+1. Akses **Reporting → Rekap Plus Lokasi**  
+2. Pilih **Recap By** (🗂️ Classification, GMD, Collection Type, Language)  
+3. Pilih **Location** (📍 All Locations atau cabang tertentu)  
+4. Klik **Apply Filter** untuk memuat ulang laporan  
+5. 🖨️ **Print Current Page** atau 📥 **Export to spreadsheet**
 
-This SLiMS plugin is **experimental** and provided “as is.”  
-Use at your own risk—no warranties, express or implied.  
-The author (Ade Ismail Siregar) is not liable for any damage or data loss.  
+---
 
+> ⚠️ **Disclaimer**  
+> Plugin ini **eksperimental** dan diberikan “as is” tanpa jaminan apa pun.  
+> Gunakan dengan risiko Anda sendiri.
 
 © May 2025 Ade Ismail Siregar  
