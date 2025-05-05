@@ -1,5 +1,8 @@
 # Recap Plus Lokasi Report (Plugin Edition)
 
+![image](https://github.com/user-attachments/assets/7e6894e3-2f26-4b87-8f92-561efa4f2a18)
+
+
 ## Overview
 
 This SLiMS plugin extends the built-in reporting module to provide:
