@@ -42,5 +42,12 @@ With these steps, your plugin will be installed and ready to use in any SLiMS 9.
 3. Use the **Location** dropdown to select either _All Locations_ or a specific branch.  
 4. Click **Apply Filter** to reload the report iframe with your settings.  
 5. To print, click **Print Current Page**; to download, click **Export to spreadsheet format**.
----
+
+## Disclaimer
+
+This SLiMS plugin is **experimental** and provided “as is.”  
+Use at your own risk—no warranties, express or implied.  
+The author (Ade Ismail Siregar) is not liable for any damage or data loss.  
+
+
 © May 2025 Ade Ismail Siregar  
