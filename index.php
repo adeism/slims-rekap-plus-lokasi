@@ -1,12 +1,8 @@
 <?php
 /**
  * Recap plus Location Report (Plugin Edition)
- * ---------------------------------------------------------------------------
- * v2025‑05‑05c – Adds dynamic recap columns for every entry in `mst_item_status`
- *                (e.g. Rusak, Hilang, Booked) **and** an "On Loan" column.
- *
- * This script now builds the header and totals on‑the‑fly so any custom item
- * status automatically appears in the recap without editing the code.
+ * Author: Ade Ismail Siregar
+ * Author URI: https://github.com/adeism
  */
 
 if (!defined('INDEX_AUTH')) {
